@@ -18,15 +18,12 @@ var Report = require('./lib/report'),
 	ReportEngine = require('./lib/engine'),
 	LiveJsonDatasource = require('./lib/datasources/livejson'),
 	WebJsonDatasource = require('./lib/datasources/webjson'),
-	JadeRuntime = require('./lib/runtimes/jaderuntime'),
 	HandlebarsRuntime = require('./lib/runtimes/handlebarsruntime'),
 	PdfPipeline = require('./lib/pipelines/pdfpipeline');
-
 
 exports.Report = Report;
 exports.ReportParameter = ReportParameter;
 exports.ReportEngine = ReportEngine;
-exports.JadeRuntime = JadeRuntime;
 exports.HandlebarsRuntime = HandlebarsRuntime;
 exports.LiveJsonDatasource = LiveJsonDatasource;
 exports.WebJsonDatasource = WebJsonDatasource;

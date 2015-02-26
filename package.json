@@ -1,25 +1,22 @@
-{ "name": "nreports"
-, "description": "Provides basic reporting framework for NodeJS."
-, "version": "0.0.16"
-, "repository": {
-	"url": "https://github.com/phil-taylor/nreports"
-}
-,"licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/phil-taylor/nreports/blob/master/LICENSE"
-    }
-  ]
-, "main": "index.js"
-, "dependencies":
-  { "jade": "0.30.0"
-  , "jade-ext": "latest"
-  , "async" : "latest"
-  , "handlebars" : "latest"
-  , "phantom" : "latest"
-  },
-  "devDependencies":
-  { "nodeunit": "*"
-  , "sinon": "*"    
-  }
+{
+	"name": "nreports"
+	, "description": "Provides basic reporting framework for NodeJS."
+	, "version": "0.0.16"
+	, "repository": {
+		"url": "https://github.com/danielbsig/nreports"
+	}
+	,"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/danielbsig/nreports/blob/master/LICENSE"
+	}]
+	, "main": "index.js"
+	, "dependencies": {
+		"async" : "latest"
+		, "handlebars" : "latest"
+		, "phantom" : "latest"
+	},
+	"devDependencies": {
+		"nodeunit": "*"
+		, "sinon": "*"
+	}
 }
